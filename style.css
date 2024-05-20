@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo
+{
+    margin-left: 30px;
+    margin-top: 5px;
+    
+
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+
+ }
+.s1 {
+background-color: black;
+color: white;
+padding: 10px 15px;
+border-radius: 20px;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    cursor: pointer;
+}
+nav ul :hover{
+
+    color: orangered;
+    text-decoration: underline;
+}
+/* section 1 */
+.sec1{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(230, 243, 243);
+    
+}
+section h1{
+    padding-top: 60px;
+    padding-left: 40px;
+    font-size: 90px;
+
+}
+.sub1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.sub1 ul li{
+    list-style-type: none;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.subsec1{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.subsec2{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+
+}
+.subsec1{
+    padding-top: 40px;
+
+}
+/* footer */
+.box{
+    width: 240px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.mainfoot{
+    
+    padding-top: 50px;
+}
+.foot4 ul li{
+    list-style-type: none;
+    
+}
+.foot4 ul li :hover{
+    text-decoration: underline;
+    cursor: pointer;
+    height: 50%;
+
+}
+.mainfoot{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.alph{
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+   margin-left: 30%;
+   padding: 60px;
+   
+
+}
+.alph  :hover{
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
